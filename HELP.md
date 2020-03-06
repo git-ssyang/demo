@@ -22,4 +22,19 @@
         2、tomcat运行编码设置,在VM options填写: -Dfile.encoding=UTF-8
         
         3、自定义VM选项设置：-Dfile.encoding=UTF-8
-                    
+
+## ****swagger2注解说明****
+                
+         1、@Api : 描述整个类的接口分类定义
+         
+         2、@ApiImplicitParams ： 定义了接口的所有参数
+         
+         3、@ApiResponses ： 定义了返回的所有状态码及说明
+         
+         4、@ApiOperation ： 描述了单个接口的本身功能
+         
+         5、@ApiModel : 通用接口返回结果模型
+         
+         6、@ApiModelProperty : 实体属性的说明
+         
+         7、

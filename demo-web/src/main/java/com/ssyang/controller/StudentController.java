@@ -12,8 +12,13 @@ import com.ssyang.demo.entity.RequestDTO;
 import com.ssyang.demo.entity.ResponseDTO;
 import com.ssyang.demo.entity.Student;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+import org.springframework.boot.autoconfigure.data.ConditionalOnRepositoryType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,7 +33,7 @@ import javax.validation.Valid;
  * @author Yangshuaishuai
  *
  */
-@Api(tags = "学生信息",value="学生信息接口")
+@Api(tags = "学生信息")
 @RestController
 @RequestMapping("/student")
 public class StudentController {
@@ -50,5 +55,17 @@ public class StudentController {
         return new ResponseDTO<Student>(student);
     }
     
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "name",value = "学生姓名",required = true,dataType = "String",paramType = "path",example = "李四")
+    })
+    @ApiOperation(notes = "删除学生信息",value = "删除操作")
+    @PostMapping("/delStudent")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200,message = "接口返回成功状态"),
+            @ApiResponse(code = 500,message = "接口返回未知错误，请联系开发人员")
+    })
+    public ResponseDTO<String> delStudent(String name){
+        return null;
+    }
     
 }

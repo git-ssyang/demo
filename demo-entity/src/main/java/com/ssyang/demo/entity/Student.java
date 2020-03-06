@@ -25,9 +25,9 @@ import lombok.NoArgsConstructor;
 @ApiModel(description = "学生实体信息")
 public class Student {
     
-    @ApiModelProperty(value = "学生姓名", dataType = "String", position = 1)
+    @ApiModelProperty(value = "学生姓名", dataType = "String", position = 1,notes = "姓名",example = "张三")
     private String name;
     
-    @ApiModelProperty(value = "学生住址", dataType = "String", position = 2)
+    @ApiModelProperty(value = "学生住址", dataType = "String", position = 2,notes = "地址",example = "北京")
     private String address;
 }

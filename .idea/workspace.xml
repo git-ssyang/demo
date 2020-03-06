@@ -4,6 +4,8 @@
     <list default="true" id="ddd6a6d6-4447-4813-986b-ab983d69103f" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-entity/src/main/java/com/ssyang/demo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-entity/src/main/java/com/ssyang/demo/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-web/src/main/java/com/ssyang/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/ssyang/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +152,7 @@
       <workItem from="1583398059104" duration="5361000" />
       <workItem from="1583412260473" duration="14084000" />
       <workItem from="1583497308306" duration="947000" />
-      <workItem from="1583498329670" duration="1288000" />
+      <workItem from="1583498329670" duration="3661000" />
     </task>
     <task id="LOCAL-00001" summary="调整格式">
       <created>1583402009767</created>
@@ -187,7 +189,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/demo-web/src/main/java/com/ssyang/controller/StudentController.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
