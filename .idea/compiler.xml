@@ -14,18 +14,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.5" />
-      <module name="demo-dao" target="1.5" />
-      <module name="demo-entity" target="1.5" />
-      <module name="demo-service" target="1.5" />
-      <module name="demo-utils" target="1.5" />
-      <module name="demo-web" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="demo-dao" target="1.8" />
+      <module name="demo-domain" target="1.8" />
+      <module name="demo-entity" target="1.8" />
+      <module name="demo-service" target="1.8" />
+      <module name="demo-utils" target="1.8" />
+      <module name="demo-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="" />
       <module name="demo-dao" options="-parameters" />
+      <module name="demo-domain" options="-parameters" />
       <module name="demo-entity" options="-parameters" />
       <module name="demo-service" options="-parameters" />
       <module name="demo-utils" options="-parameters" />

@@ -11,5 +11,32 @@
   
   <artifactId>demo-web</artifactId>
   <packaging>war</packaging>
-
+  
+  <dependencies>
+    
+    <!-- 引入相关的实体类 **************** start ****-->
+    <dependency>
+      <groupId>com.ssyang</groupId>
+      <artifactId>demo-entity</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+      
+    <!-- 引入相关的实体类 **************** end ****-->
+    
+  </dependencies>
+  
+  <!-- 项目依赖的相关包  start  -->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <!-- 没有该配置，devtools 不生效 -->
+          <fork>false</fork>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <!-- 项目依赖的相关包  end  -->
 </project>

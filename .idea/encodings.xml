@@ -3,7 +3,12 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-domain/src/main/java/com/ssyang/demo/entity/RequestDTO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo-domain/src/main/java/com/ssyang/demo/entity/ResponseDTO.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/demo-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-entity/src/main/java/com/ssyang/demo/entity/RequestDTO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demo-entity/src/main/java/com/ssyang/demo/entity/ResponseDTO.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/demo-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-web" charset="UTF-8" />
