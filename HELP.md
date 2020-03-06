@@ -14,3 +14,12 @@
 
     参照地址： https://blog.csdn.net/Lucky_LXG/article/details/77849212
  
+
+## 控制台日志乱码
+
+        1、file-setting 编辑器的编码设置成utf-8
+        
+        2、tomcat运行编码设置,在VM options填写: -Dfile.encoding=UTF-8
+        
+        3、自定义VM选项设置：-Dfile.encoding=UTF-8
+                    
