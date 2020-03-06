@@ -38,3 +38,7 @@
          6、@ApiModelProperty : 实体属性的说明
          
          7、
+         
+         参考项目：https://gitee.com/blueses/spring-boot-demo/tree/master
+         
+         接口文档的访问地址：localhost:8080/doc.html

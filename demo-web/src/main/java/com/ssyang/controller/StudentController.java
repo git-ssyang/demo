@@ -56,7 +56,7 @@ public class StudentController {
     }
     
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "name",value = "学生姓名",required = true,dataType = "String",paramType = "path",example = "李四")
+            @ApiImplicitParam(name = "name",value = "学生姓名",required = true,dataType = "String",paramType = "String",example = "李四")
     })
     @ApiOperation(notes = "删除学生信息",value = "删除操作")
     @PostMapping("/delStudent")
